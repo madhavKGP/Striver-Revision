@@ -1,0 +1,17 @@
+# Packaged builds and signing keys (never commit a .pem)
+*.zip
+*.crx
+*.pem
+
+# Personal progress backups exported from the panel
+tuf-revision-backup-*.json
+
+# Local tool / editor folders
+.opencode/
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
